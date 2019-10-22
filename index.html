@@ -4,61 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Joseph Thompson | Resume</title>
 </head>
 <body>
     <!--Intro-->
     <header>
-        <img src="Images/0.jpg" alt="Picture_of_Joseph">
-        <h1>Joseph Thompson</h1>
-        <h2>IT Systems Administrator</h2>
-        <p>Hello, my name is Joseph Thompson, and I am currently a student enrolled at the University of North Carolina at Charlotte perusing a degree in Computer Science.
-            I have gained experience in the Java programming language through the courses I have taken so far and have created a few programs for class projects and exams.</p>
+        <div class="content-wrap">
+            <img id="profile-image" src="Images/0.jpg" alt="Picture_of_Joseph">
+            <h1>Joseph Thompson</h1>
+            <h2>IT Systems Administrator</h2>
+            <p>Hello, my name is Joseph Thompson, and I am currently a student enrolled at the University of North Carolina at Charlotte perusing a degree in Computer Science.
+                I have gained experience in the Java programming language through the courses I have taken so far and have created a few programs for class projects and exams.</p>
+            <!-- Add popup windows with JS to verify CompTIA A+ Certification -->
+        </div>
     </header>
     <main>
-        <!--Work Experience-->
-        <section class="work-experience">
-            <h2>Work Expirience</h2>
-            <h3>IT Systems Administrator</h3>
-            <p>Greenway Chemical Systems & Services</p>
-            <p>2012</p>
+        <!--Work Expirience-->
+        <section class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+                <h3>IT Systems Administrator</h3>
+                <p>Greenway Chemical Systems & Services - 2012</p>
 
-            <P>During my time at Greenway Chemical Systems & Services, I have helped to accelerate the growth of a small start-up 
-                into a multi-state industrial water treatment company that serves the greater southeast region of the United States.</P>
-            <p>My current responsibilities at Greenway Chemical Systems & Services are but not limited to.</p>
-            <ul>
-                <li>Computer Maintenance</li>
-                <li>Windows 10 Pro Support/Administration</li>
-                <li>Website Maintenance</li>
-                <li>Social Media Marketing</li>
-                <li>Network Maintenance</li>
-                <li>Determine the technology needs/setup</li>
-                <li>Programming Walchem Controllers for Clients</li>
-                <li>Troubleshooting</li>
-            </ul>
+                <P>During my time at Greenway Chemical Systems & Services, I have helped to accelerate the growth of a small start-up 
+                    into a multi-state industrial water treatment company that serves the greater southeast region of the United States.</P>
+                <p>My current responsibilities at Greenway Chemical Systems & Services are but not limited to.</p>
+                <ul>
+                    <li>Computer Maintenance</li>
+                    <li>Windows 10 Pro Support/Administration</li>
+                    <li>Website Maintenance</li>
+                    <li>Social Media Marketing</li>
+                    <li>Network Maintenance</li>
+                    <li>Determine the technology needs/setup</li>
+                    <li>Programming Walchem Controllers for Clients</li>
+                    <li>Troubleshooting</li>
+                </ul>
+            </div>
         </section>
         
         <!--Education-->
         <section class="education">
-            <h2>Education</h2>
-                <h3>University of North Carolina at Charlotte - 2021</h3>
-                <p>Bachelors of Science in Computer Science.</p>
-            <h3>Central Piedmont Community College - 2018</h3>
-                <p>General Education</p>            
-            <h3>Charlotte Catholic High School - 2015</h3>
-                <p>High School Diploma</p>
-                <p>Activities: Marching & Symphonic Band.</p>
+                <div class="content-wrap">
+                    <h2>Education</h2>
+                    <h3>The University of North Carolina at Charlotte - 2021</h3>
+                    <p>Bachelor of Science in Computer Science.</p>
+                    <P>Related Coursework</P>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Computing Professionals II</li>
+                        <li>Human Center Design</li>
+                        <li>Intro to Technical Communication</li>
+                    </ul>
+                    <h3>Central Piedmont Community College - 2018</h3>
+                    <p>General Education</p>
+                    <P>Related Coursework</P>
+                    <ul>
+                        <li>Computer Fundamentals</li>
+                        <li>Java Programming</li>
+                    </ul>
+                    <h3>Charlotte Catholic High School - 2015</h3>
+                    <p>High School Diploma</p>
+                    <p>Activities: Marching & Symphonic Band.</p>
+                </div>
         </section>
     </main>
 
     <!--Footer-->
     <footer>
-        <h2>Let's keep in touch</h2>
-        <div>
-            <a href="mailto:joeythompson1014@gmail.com">joeythompson1014@gmail.com</a>
-            <a href="https://www.linkedin.com/in/joseph-l-thompson/">LinkedIn</a>
-            <a href="https://github.com/Jlthompson96">GitHub</a>
+        <div class="content-wrap">
+            <h2>Let's Keep In Touch!</h2>
+            <div class="contact">
+                <a href="mailto:joeythompson1014@gmail.com">joeythompson1014@gmail.com</a>
+                <a href="https://www.linkedin.com/in/joseph-l-thompson/">LinkedIn</a>
+                <a href="https://github.com/Jlthompson96">GitHub</a>
+            </div>
+            <p>Copyright 2019 by Joseph Thompson</p>
         </div>
     </footer>
 </body>
