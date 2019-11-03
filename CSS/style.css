@@ -1,4 +1,12 @@
 /* Global Styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -7,12 +15,18 @@ body {
 h1,h2 {
     font-family: 'Caveat', cursive;
 }
+
 h1 {
     font-size: 80px;
 }
+
 h2 {
     font-size: 40px;
     margin-top: 0;
+}
+
+h3 {
+    margin: 0;
 }
 
 a {
@@ -29,6 +43,20 @@ a:hover {
     padding: 50px;
     overflow: auto;
 }
+.col-narrow {
+    width:30%;
+    float: left;
+}
+
+.col-wide {
+    width:70%;
+    float: left;
+    padding-left: 20px;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
 
 /* Header & Footer */
 header,footer {
@@ -41,11 +69,8 @@ header h1, header h2 {
     margin: 0;
 }
 
-#profile-image {
-    width: 300px;
+.profile-image {
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
 }
 
 /* Footer */
@@ -63,7 +88,20 @@ footer {
     background: #EDF2F4;
 }
 
+h3 ~ p{
+    margin:0;
+}
+
+.job-description p:first-of-type{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
 /* Education */
 .education {
     background: #8D99AE;
+}
+
+ul + h3 {
+    margin-top: 30px;
 }
