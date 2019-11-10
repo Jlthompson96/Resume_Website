@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Joseph Thompson | Resume</title>
 </head>
 <body>
     <!--Intro-->
-    <header>
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <img class="profile-image col-narrow" src="Images/0.jpg" alt="Picture_of_Joseph">
             <div class="col-wide">
@@ -23,13 +29,13 @@
                     repairing as well as troubleshooting with these systems. 
                     I also have experience working with software and or OS’s that run on different types of systems. 
                     From MacOS to Windows to Linux I have used and had experience with each of these different environments.</p>
-                    <p>If you are interested in a formal resume, you can download a pdf version <a href="Images/Joseph-Thompson-Resume.pdf" download>here</a></p>
+                    <a href="Images/Joseph-Thompson-Resume.pdf" class="btn" download>PDF Resume</a>
             </div>
         </div>
     </header>
     <main>
         <!--Work Expirience-->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
                     <h2>Work Experience</h2>
                     <div class="col-narrow">
@@ -56,7 +62,7 @@
         
         <!--Education-->
         <section class="education">
-                <div class="content-wrap">
+                <div id="education" class="content-wrap">
                     <h2>Education</h2>
                     <h3>The University of North Carolina at Charlotte - 2021</h3>
                     <p>Bachelor of Science in Computer Science</p>
@@ -83,7 +89,7 @@
 
     <!--Footer-->
     <footer>
-        <div class="content-wrap">
+        <div id="contact" class="content-wrap">
             <h2>Let's Keep In Touch!</h2>
             <div class="contact">
                 <a href="mailto:joeythompson1014@gmail.com">joeythompson1014@gmail.com</a>
