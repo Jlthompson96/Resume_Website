@@ -90,3 +90,55 @@ body {
 footer {
     text-align: center;
 }
+
+/* Media Queries */
+@media (max-width: 576px) {
+    #about img {
+        height: 35%;
+        width: 35%;
+        padding-top: 100px;
+    }
+
+    #about {
+        margin: 4%;
+        font-size: 12px;
+    }
+    #work {
+        margin: 4%;
+    }
+    #work #workTitle {
+        font-size: 18px;
+    }
+    #work h1{
+        font-size: 20px;
+    }
+    #work h3{
+        font-size: 14px;
+    }
+    #work p {
+        font-size: 14px;
+    }
+    #work li {
+        font-size: 14px;
+    }
+    #education {
+        margin: 4%;
+    }
+    #education h3 {
+        font-size: 14px;
+    }
+    #education p {
+        font: size 12x; ;
+    }
+    #contact {
+        margin: 4%;
+    }
+    #contact svg {
+        height: 30%;
+        width: 30%;
+        padding: 20px;
+    }
+    #contact svg:hover {
+        fill: black;
+    }
+}
