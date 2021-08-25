@@ -76,7 +76,9 @@ body {
 #about .btn {
     text-align: center;
 }
-
+#bttop {
+    float: right;
+}
 #contact svg {
     height: 10%;
     width: 10%;
