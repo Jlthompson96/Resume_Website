@@ -11,5 +11,6 @@ A website hosted in GitHub Pages to display my resume in webpage format.
 
 ## Future Plans
 * Add projects section
+* Enhance with a frontend framework i.e. React/Angular/Vue
 
 Link to website: https://jlthompson96.github.io/Resume_Website/
