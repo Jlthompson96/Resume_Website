@@ -1,5 +1,5 @@
 # Joseph Thompson's Resume Website
-<img src = "https://avatars.githubusercontent.com/u/10181448?s=400&u=c06fd2d61fe0042ee42b8770545343ea31a8f9f0&v=4" alt="Picture of Joseph" height="150px"/>
+<img src = "https://github.com/jlthompson96/Resume_Website/blob/master/assets/Joey.jpeg?raw=true" alt="Picture of Joseph" height="150px"/>
 
 ## Implementation
 A website hosted in GitHub Pages to display my resume in webpage format.
