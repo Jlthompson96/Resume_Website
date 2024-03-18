@@ -1,10 +1,13 @@
+import { Container, Paper } from "@mui/material";
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
-            <p>Projects experience goes here</p>
-        </div>
+        <Container maxWidth="lg">
+            <Paper elevation={3} sx={{ padding: '20px', marginTop: '50px' }}>
+                <h1>Projects</h1>
+                <p>Projects experience goes here</p>
+            </Paper>
+        </Container>
     );
 }
 
