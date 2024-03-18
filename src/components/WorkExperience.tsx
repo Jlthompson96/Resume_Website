@@ -8,7 +8,37 @@ const WorkExperience = () => {
                 <Typography variant="h4" sx={{ fontWeight: 'bold' }}>Work Experience</Typography>
                 <div className="wf" style={{ padding: '20px' }}>
                     <img src={WFLogo} alt="Wells Fargo Logo" style={{ width: '100px', height: '100px', borderRadius: '30px', padding: '20px' }} />
-                    <Typography variant="h5">Software Engineer</Typography>
+                    <Typography variant="h5">Software Engineer, Assistant Vice President</Typography>
+                    <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+                        <li style={{ paddingBottom: '10px' }}>Initiated the modernization of our application by working with a team of three members to develop
+                            and implement a
+                            Proof of Concept (POC) for deployment in lower environments on Pivotal Cloud Foundry (PCF).</li>
+                        <li style={{ paddingBottom: '10px' }}>Successfully transformed a Java 8 SpringBoot application with JSP into a modernized architecture,
+                            breaking it down
+                            into micro frontends powered by React.js and multiple backend microservices using Java 17 and Spring
+                            6.</li>
+                        <li style={{ paddingBottom: '10px' }}>Collaborated closely with cross-functional teams to configure PCF environments and set up IBM Urban
+                            Code Deploy
+                            (UCD) properties while also establishing an efficient Jenkins pipeline for deployment and code
+                            scanning.</li>
+                        <li style={{ paddingBottom: '10px' }}>Collaborated with senior engineers to align code with design patterns, frameworks and efficiency.
+                        </li>
+                        <li style={{ paddingBottom: '10px' }}>Utilized Enterprise Jira to in the development lifecycle, including code design,
+                            implementation, testing, and
+                            integration, adhering to industry-standard methodologies.</li>
+                        <li style={{ paddingBottom: '10px' }}>Mentored and supported interns, contractors, and new team members, fostering a sense of confidence
+                            and
+                            integration within their roles, ultimately enhancing the company's overall reputation. Additionally,
+                            conducted
+                            interviews for potential interns and analysts.</li>
+                        <li style={{ paddingBottom: '10px' }}>Delivered crucial production support for the enterprise fraud and claims application by identifying
+                            and rectifying
+                            vulnerabilities and bugs, while proficiently troubleshooting issues through Splunk log analysis.
+                            Additionally,
+                            contributed support for late-night deployments in lower environment and production settings</li>
+                        <li style={{ paddingBottom: '10px' }}>Created and maintained documentation to better assist users in repositories.</li>
+                    </ul>
+
                 </div>
             </Paper>
         </Container>
