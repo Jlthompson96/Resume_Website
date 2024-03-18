@@ -5,9 +5,9 @@
 A website hosted in GitHub Pages to display my resume in webpage format.
 
 ## Steps Involved
-* Followed a CSS course on LinkedIn Learning to help expand my CSS knowledge
-* Used HTML5 and CSS3 for the strcuture and style of the website
-* Added sections to show my current and past accomplishments (Work and School)
+* Migrate to the React framework for a more dynamic and interactive experience
+* Used the Vite build tool to create a React app from scratch
+* Styled the app with the MUI library for a more modern look
 
 ## Future Plans
 - [x] Add projects section
