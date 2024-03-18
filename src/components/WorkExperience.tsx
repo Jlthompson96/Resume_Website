@@ -9,6 +9,7 @@ const WorkExperience = () => {
                 <div className="wf" style={{ padding: '20px' }}>
                     <img src={WFLogo} alt="Wells Fargo Logo" style={{ width: '100px', height: '100px', borderRadius: '30px', padding: '20px' }} />
                     <Typography variant="h5">Software Engineer, Assistant Vice President</Typography>
+                    <Typography variant="h5">January 2022 - Present</Typography>
                     <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
                         <li style={{ paddingBottom: '10px' }}>Initiated the modernization of our application by working with a team of three members to develop
                             and implement a
