@@ -8,7 +8,7 @@ import Projects from './components/Projects'
 import WorkExperience from './components/WorkExperience'
 import { Switch, createMuiTheme } from '@mui/material'
 import { useState } from 'react'
-import { blue, green, orange } from '@mui/material/colors'
+import { blue, green } from '@mui/material/colors'
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
